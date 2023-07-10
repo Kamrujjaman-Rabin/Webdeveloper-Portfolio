@@ -152,27 +152,30 @@ main section {
 
 /*resume section style */
 .rsm-con-ttl {
-    color:#474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
 
-.rsm-cnt{
+.rsm-cnt {
     display: flex;
     gap: 50px;
 }
 
-.rsm-item-ttl{
+.rsm-item-ttl {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-..rsm-item-instt{
+
+.rsm-item-instt {
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.rsm-item-instt, .rsm-item-des {
+
+.rsm-item-instt,
+.rsm-item-des {
     color: #757575;
 }
 
@@ -186,9 +189,44 @@ main section {
 }
 
 /* footer style */
-footer{
-    display:flex;
+footer {
+    display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 230px;
+}
+
+.ftr-clm {
+    width: 50%;
+}
+
+.sec-ttl {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec-des {
+    color: #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.links a{
+margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
