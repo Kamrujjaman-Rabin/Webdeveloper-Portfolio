@@ -128,3 +128,12 @@ main {
 .about-info{
     text-align: center;
 }
+
+/*skill related styles */
+#do {
+    padding: 30px 150px;
+}
+
+.skill-cont {
+    display: flex;
+}
