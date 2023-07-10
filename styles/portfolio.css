@@ -156,3 +156,31 @@ main section {
     font-size: 30px;
     font-weight: 700;
 }
+
+.rsm-cnt{
+    display: flex;
+    gap: 50px;
+}
+
+.rsm-item-ttl{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+..rsm-item-instt{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.rsm-item-instt, .rsm-item-des {
+    color: #757575;
+}
+
+.rsm-cnt hr {
+    margin: 30px;
+}
+
+.cv {
+    text-align: center;
+    margin-top: 50px;
+}
